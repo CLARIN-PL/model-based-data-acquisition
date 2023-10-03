@@ -1,0 +1,24 @@
+
+\begin{table}[H]
+\centering
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{l|cc|cc|cc|cc}
+\hline
+ & \multicolumn{2}{*}{F1 macro} & \multicolumn{2}{*}{AER} & \multicolumn{2}{*}{AAL} & \multicolumn{2}{*}{MLRAL}\\
+\hline
+Dataset & Supervised&Self-Supervised & Supervised&Self-Supervised & Supervised&Self-Supervised & Supervised&Self-Supervised\\
+\hline
+Doccano 1.0  &$0.65\pm0.01$&$0.60\pm0.01$&$0.31\pm0.01$&$0.29\pm0.01$&$0.16\pm0.02$&$0.15\pm0.01$&$0.30\pm0.03$&$0.29\pm0.01$\\
+\\
+\hline
+MHS  &$0.44\pm0.03$&$0.47\pm0.01$&$0.14\pm0.00$&$0.14\pm0.00$&$0.25\pm0.10$&$0.17\pm0.01$&$0.34\pm0.09$&$0.26\pm0.01$\\
+\\
+\hline
+UC  &$0.37\pm0.08$&$0.33\pm0.02$&$0.35\pm0.11$&$0.25\pm0.02$&$0.32\pm0.14$&$0.19\pm0.02$&$0.38\pm0.13$&$0.25\pm0.03$\\
+\\
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Self-Supervised results for every dataset}
+\label{tab:datasets_metrics_self_sup}
+\end{table}
